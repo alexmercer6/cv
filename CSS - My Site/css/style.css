@@ -1,0 +1,160 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #D8E3E7;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  color: white;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  text-align: center;
+  color: #126E82;
+}
+
+.avatar {
+  width: 10%;
+  background-color: #51C4D3;
+  border-radius: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cloudOne {
+  position: relative;
+  left: 250px;
+  top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cloudTwo {
+  position: relative;
+  right: 250px;
+}
+.home {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+.home:hover {
+  text-decoration: underline;
+}
+.languages {
+  color: white;
+  font-size: 30px;
+  display: inline;
+  padding: 50px;
+}
+
+.links {
+  color: #126E82;
+  font-size: 30px;
+  text-decoration: none;
+}
+.links:hover {
+  text-decoration: underline;
+}
+
+.mountain {
+  position: relative;
+  top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.panels {
+  background-color: #132C33;
+  border-radius: 10px;
+  color: white;
+  height: 500px;
+  width: 300px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  transition: .2s ease-out;
+  box-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.panels:hover {
+  transform: translate3d(0,-15px,0);
+}
+
+.resume-body {
+  background-color: #126E82;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.top-links {
+  color: white;
+  margin: 10px;
+}
+
+.very-top {
+  background-color: #126E82;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.socials {
+  width: 5%;
+  position: relative;
+  padding: 10px;
+}
+
+#container-one {
+  background-color: #51C4D3;
+  padding-top: 100px;
+}
+
+#container-two {
+  background-color: #D8E3E7;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#container-three {
+  background-color: #51C4D3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#container-four {
+  background-color: #D8E3E7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#container-five {
+  background-color: #126E82;
+
+}
